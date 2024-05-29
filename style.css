@@ -15,14 +15,13 @@
    background-color: rgb(44, 117, 72);
    margin: 0 auto;
    padding: 30px 40px;
-   justify-content: space-between;
+   justify-content: center;
    align-items: center;
+   align-content: space-between;
 }
 
 .nav .logo img{
-    display: flex;
-    width: 15vh;
-    margin-left: 80%;
+ width: 40%;
 }
 
 .nav ul {
@@ -119,6 +118,11 @@
     text-align: center;
 
 }
+.container hr {
+    width: 100%;
+    color: navy;
+}
+
 .container footer h2{
     display: inline-block;
     margin: 25px 25px;
